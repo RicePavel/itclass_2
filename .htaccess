@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^currency.* api.php [L]
+
+#RewriteRule ^currency(.*)$ api.php?q=$1 [L]
